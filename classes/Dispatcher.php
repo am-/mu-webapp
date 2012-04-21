@@ -1,12 +1,13 @@
 <?php
 /**
- * Biphrost
+ * mu-webapp
  * 
  * LICENSE
  * 
- * The new BSD license is applied on this source-file. For further
- * information please visit http://license.nordic-dev.de/newbsd.txt
- * or send an email to andre.moelle@gmail.com.
+ * The BSD 2-Clause License is applied on this source-file. For
+ * further information please refer to
+ * http://www.opensource.org/licenses/BSD-2-Clause or send an
+ * email to andre.moelle@gmail.com.
  */
 
 /**
@@ -17,14 +18,12 @@
  * Thereafter it executes the entrance and returns a new transfer-object
  * with some modifications.
  * 
- * @package    Biphrost
- * @copyright  2008-2009 Nordic Development
- * @license    http://license.nordic-dev.de/newbsd.txt (New-BSD license)
+ * @package    mu-webapp
+ * @copyright  2008-2012 Andre Moelle
+ * @license    http://www.opensource.org/licenses/BSD-2-Clause
  * @author     Andre Moelle <andre.moelle@gmail.com>
- * @version    $Id: Dispatcher.php 29 2009-06-05 14:40:57Z andre.moelle $
  */
-class Dispatcher
-{
+class Dispatcher {
 	/**
 	 * The base-path stores the directory where the entrances reside.
 	 * 

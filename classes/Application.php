@@ -1,12 +1,13 @@
 <?php
 /**
- * Biphrost
+ * mu-webapp
  * 
  * LICENSE
  * 
- * The new BSD license is applied on this source-file. For further
- * information please visit http://license.nordic-dev.de/newbsd.txt
- * or send an email to andre.moelle@gmail.com.
+ * The BSD 2-Clause License is applied on this source-file. For
+ * further information please refer to
+ * http://www.opensource.org/licenses/BSD-2-Clause or send an
+ * email to andre.moelle@gmail.com.
  */
  
 /**
@@ -18,14 +19,12 @@
  * an entrance. The most important part is the initializing and
  * the shutdown which are described in the corresponding methods.
  * 
- * @package    Biphrost
- * @copyright  2008-2009 Nordic Development
- * @license    http://license.nordic-dev.de/newbsd.txt (New-BSD license)
+ * @package    mu-webapp
+ * @copyright  2008-2012 Andre Moelle
+ * @license    http://www.opensource.org/licenses/BSD-2-Clause
  * @author     Andre Moelle <andre.moelle@gmail.com>
- * @version    $Id: Application.php 26 2009-06-04 21:42:42Z andre.moelle $
  */
-abstract class Application
-{
+abstract class Application {
 	/**
 	 * Contains the base-path of the application.
 	 * 

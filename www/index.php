@@ -1,12 +1,13 @@
 <?php
 /**
- * Biphrost
+ * mu-webapp
  * 
  * LICENSE
  * 
- * The new BSD license is applied on this source-file. For further
- * information please visit http://license.nordic-dev.de/newbsd.txt
- * or send an email to andre.moelle@gmail.com.
+ * The BSD 2-Clause License is applied on this source-file. For
+ * further information please refer to
+ * http://www.opensource.org/licenses/BSD-2-Clause or send an
+ * email to andre.moelle@gmail.com.
  */
 include '../classes/Transfer.php';
 include '../classes/Template.php';
@@ -14,7 +15,7 @@ include '../classes/Dispatcher.php';
 include '../classes/Application.php';
 include '../application/code/MyApp.php';
 
-header('X-Powered-By: Biphrost 0.1.3-dev');
+header('X-Powered-By: mu-webapp 0.1.3-dev');
 if(!isset($_SESSION)) session_start();
 $self = dirname($_SERVER['PHP_SELF']);
 $uri = $_SERVER['REQUEST_URI'];
