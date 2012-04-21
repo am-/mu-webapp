@@ -23,7 +23,7 @@
  * 
  * There are only a few subsystems:
  * 1.) The outside-world, usually the web.
- * 2.) The Biphrost core.
+ * 2.) The core classes.
  * 3.) The application itself.
  * 
  * @package    mu-webapp
