@@ -27,4 +27,3 @@ $app->getTransfer()->setSession($_SESSION)->setCookies($_COOKIE)->setGet($_GET)-
 $transfer = $app->run($uri == '/' ? '/index' : $uri);
 if(!$transfer->wasDispatched()) $transfer = $app->run('/error/404');
 $_SESSION = $transfer->getSession();
-?>

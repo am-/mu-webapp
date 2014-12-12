@@ -19,7 +19,7 @@
  * with some modifications.
  * 
  * @package    mu-webapp
- * @copyright  2008-2012 Andre Moelle
+ * @copyright  2008-2015 Andre Moelle
  * @license    http://www.opensource.org/licenses/BSD-2-Clause
  * @author     Andre Moelle <andre.moelle@gmail.com>
  */
@@ -131,4 +131,3 @@ class Dispatcher {
 		return $result;
 	}
 }
-?>

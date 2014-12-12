@@ -10,4 +10,3 @@ switch ($transfer->argument(0))
 }
 
 $transfer->template = $tpl;
-?>
